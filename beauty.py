@@ -23,7 +23,7 @@ with dataset:
     st.header('NYC taxi dataset')
     st.text('I found this dataset on Kaggle')
 
-    text_data = get_data('green_tripdata_2022.parquet') 
+    text_data = get_data('data/green_tripdata_2022.parquet') 
     st.write(text_data.head())
     
     st.subheader('VendorID distribution on NYC dataset')
